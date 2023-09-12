@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kishore Sugumar </title>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <div class="mobile-squeleton">
+      <header class="header">
+        <h1><a href="#">KISHORE SUGUMAR</a></h1>
+        <nav>
+          <a href="#"><img src="images/Union.png" alt="hamburgeur menu" class="mobile-img"></a>
+
+        </nav>
+        <ul class="header-menu" id="header-menu">
+          <li><a href="#portfolio" class="link">Project</a></li>
+          <li><a href="#about" class="link">About</a></li>
+          <li><a href="#contact" class="link">Contact</a></li>
+          <li> <a href="#"><img src="images/removenav.svg" alt="Back hamburgeur menu " class="remove mobile-img"></a>
+          </li>
+        </ul>
+      </header>
+
+      <section class="main">
+        <div class="section">
+
+          <h2>
+            I’m Kishore Sugumar <br>
+            Glad to see you!
+          </h2>
+
+          <div class="social-media">
+
+            <h3 class="social-text">LET’S CONNECT</h3>
+
+            <ul class="media-icons">
+
+              <li> <a href="">
+                  <img src="images/linkedin.png" class="link" alt="linkedin">
+                </a> </li>
+
+              <li> <a href="">
+                  <img src="images/github.png" class="link" alt="GitHub">
+                </a> </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </section>
+      <div id="portfolio"></div>
+    </div>
+
+
+    <!-- mobile section  CARD  -->
+
+    <section class="section-nav card move">
+
+      <h2 class="header-mobile">
+        <img src="images/Screenshot (81).png" alt="logo card 4 desktop" class="desktop-img">
+      </h2>
+
+      <section class="section-mobile">
+
+        <div class="project-title">
+
+          <h2>V A N H A </h2>
+
+        </div>
+        <p class="indent">
+          It's an online store for second-hand and repossessed goods.The product can
+          be added by the vendor to this website. The purchaser can also see the
+          merchandise. and they may need to get in touch with the seller if
+          necessary. After that, they can purchase the item.
+        </p>
+
+        <p><b>Language Used </b> </p>
+
+        <ul class="list-bottom">
+          <li>html</li>
+          <li>css</li>
+          <li>Javascript</li>
+          <li>Java</li>
+        </ul>
+        <div class="action">
+          <button type="button" id="card4" class="button"> See Project </button>
+        </div>
+
+      </section>
+    </section>
+
+    <!-- pop up window -->
+    <div id="main-popup" class="popup-window  ">
+      <div id="child-popup" class="conatiner-popup-window "></div>
+    </div>
+
+    <!-- About myself resume -->
+
+    <section class="about-myself" id="about">
+      <div class="about-container">
+        <h2>
+          About <br>
+          Myself
+        </h2>
+        <p>
+          Hello, my name is Kishore Sugumar from Chennai. After completing SSLC, I
+          started my journey as a test engineer at TAFE Industry. The job, though in
+          line with my degree, was not satisfying. Hence I discontinued it and
+          applied at Freshworks Academy, to learn coding. Until then, I had not
+          decided on a career path. But the academy propelled me to pursue becoming
+          a developer. I learnt HTML, CSS and JavaScript for the front end. I
+          have a rudimentary understanding of Java and Servlet for the back end.
+          With this knowledge and with the assistance of my coaches, I am
+          developing a project. I aspire to become a Full Stack Developer.
+          I always strive to be unique and stand out from the crowd, and I
+          believe that becoming a Full Stack Developer will allow me to
+          achieve in my life.
+
+        </p>
+        <div class="get-myResume">
+          <a id="downloadCVButton" class="button">Get my resume</a>
+        </div>
+
+        <ul class="language top-skill">
+          <li>
+            <p>Languages</p>
+          </li>
+        </ul>
+
+        <ul class="language-list">
+          <li class="list">
+            <img src="images/Ellipse1.png" alt="javascript">
+            <p>JavaSript</p>
+          </li>
+          <li class="list">
+            <img src="images/Ellipse3.png" alt="html">
+            <p>HTML</p>
+          </li>
+          <li class="list">
+            <img src="images/Ellipse2.png" alt="css ">
+            <p>CSS</p>
+          </li>
+          <li class="list">
+            <img src="images/java-icon.jpg" alt="java ">
+            <p>Java</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container" id="contact">
+        <h3>Contact me</h3>
+        <p>Lets get in touch. Send me a message:
+        </p>
+        <form id="form" action="https://formspree.io/f/xyyovzvy" method="post">
+          <input type="text" name="name" id="name" placeholder="ex: kishore" maxlength="30"> <br>
+          <input type="email" name="email" id="email" placeholder="ex: kishore@gmail.com" maxlength="30">
+          <br>
+          <textarea placeholder=" Write your message here" id="comment" name="comment" cols="30" rows="10"
+            maxlength="500"></textarea><br>
+          <p class="Paragraph-errors errorMessage"></p>
+          <input type="submit" value="Get It Touch" name="submit" id="submit" class="button">
+
+        </form>
+        <hr>
+      </div>
+    </footer>
+
+
+  </section>
+
+  <script src="popup.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
