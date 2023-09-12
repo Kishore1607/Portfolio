@@ -1769,7 +1769,7 @@
 
   .section-nav {
     width: 1156px;
-    height: 496px;
+    height: 600px;
     display: grid;
     grid-template-columns: repeat(2, 544px);
     column-gap: 46px;
@@ -1795,7 +1795,7 @@
   .section-nav .header-mobile img {
     height: 350px;
     width: 544px;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 10px;
   }
 
